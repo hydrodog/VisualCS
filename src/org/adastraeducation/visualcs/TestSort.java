@@ -44,18 +44,20 @@ public class TestSort {
 	public static void main(String args[]) {
 		//int[] x = {9, 8, 7, 6, 5, 4, 3, 2, 1};
 		int [] x = createRandomArray(10);
-		if (x.length < 20) display(x);
+		//if (x.length < 20) display(x);
 		ArrayObserver ao = new TextArrayDisplayer(x);
 		long t0 = System.currentTimeMillis();
 		TestSort ts1 = new TestSort(x, ao);
 		ts1.insertionSort();
 		long t1 = System.currentTimeMillis();
-		System.out.println(t1-t0);	
+		System.out.println(t1-t0);
+		/*
 		x = createRandomArray(100000);
 		t0 = System.currentTimeMillis();
 		TestSort ts2 = new TestSort(x, ao);
 		ts2.insertionSort();
 		t1 = System.currentTimeMillis();
-		System.out.println(t1-t0);	
+		System.out.println(t1-t0);
+		*/	
 	}
 }

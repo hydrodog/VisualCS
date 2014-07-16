@@ -20,10 +20,10 @@ public class TextArrayDisplayer extends ArrayDisplayer {
 		System.out.println(b);
 	}
 	public void compare(int i, int j) {
-		System.out.println(i + "," + j);
+		System.out.println("compare: " + i + "," + j);
 	}
 	public void rotate(int i, int j, int dir) {
-		System.out.println(i + "," + j + "," + dir);		
+		System.out.println("rotate: " + i + "," + j + "," + dir);		
 	}
 	public void swap(int i, int j) {
 		System.out.println("swap(" + i + "," + j + ")");				
