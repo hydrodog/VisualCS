@@ -2,7 +2,7 @@
  * Efficient Implementation of a Matrix.
  * @author Dov Kruger
  * @created 2014-02-04
- * This commment shows that you can put a comment before the
+ * This comment shows that you can put a comment before the
  * package statement.
  * The first statement in the file must be package.
  */
@@ -11,8 +11,8 @@ package org.adastraeducation.visualcs;
 import javax.management.RuntimeErrorException;
 
 public class Matrix {
-	private double[] m;
-	private int rows, cols;
+	private double[] m; // one dimensional data, faster
+	private int rows, cols; // store size in each dimension
 	public Matrix(int rows, int cols) {
 		this.rows = rows; this.cols = cols;
 		m = new double[rows*cols];
