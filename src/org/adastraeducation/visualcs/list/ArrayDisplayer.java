@@ -1,4 +1,4 @@
-package org.adastraeducation.visualcs;
+package org.adastraeducation.visualcs.list;
 
 public abstract class ArrayDisplayer implements ArrayObserver {
 	protected int[] arr;

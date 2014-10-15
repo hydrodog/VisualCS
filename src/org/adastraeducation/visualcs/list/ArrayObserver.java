@@ -1,4 +1,4 @@
-package org.adastraeducation.visualcs;
+package org.adastraeducation.visualcs.list;
 /*
  * ArrayObserver
  * Set of calls that define how an array-based algorithm can display itself graphically

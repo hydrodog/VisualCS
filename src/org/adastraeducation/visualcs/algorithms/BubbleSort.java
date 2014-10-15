@@ -1,12 +1,12 @@
 package org.adastraeducation.visualcs.algorithms;
 
-import org.adastraeducation.visualcs.PAppletArrayDisplayer;
 import org.adastraeducation.visualcs.VisualCS;
+import org.adastraeducation.visualcs.list.PAppletArrayDisplayer;
 
-public class BubbleSort {
+public class BubbleSort implements Sort {
 	private static PAppletArrayDisplayer a;
 	
-	public static void bubbleSort(int[] x) {
+	public void sort(int[] x) {
 		for (int i = x.length-1; i > 1; i--)
 			for (int j = 0; j < i; i++)
 				if (VisualCS.visualize)
@@ -21,8 +21,9 @@ public class BubbleSort {
 	}
 	public static void main(String[] args) {
 		int[] arr = { 9, 1, 8, 2, 7, 3, 6, 5 };
+		BubbleSort s = new BubbleSort();
 		a = new PAppletArrayDisplayer(arr);
-		bubbleSort(arr);
+		s.sort(arr);
 		a.display();
 	}
 }

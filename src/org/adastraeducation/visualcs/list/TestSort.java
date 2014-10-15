@@ -1,5 +1,7 @@
-package org.adastraeducation.visualcs;
+package org.adastraeducation.visualcs.list;
 import java.util.Random;
+
+import org.adastraeducation.visualcs.Visualize;
 
 
 public class TestSort {

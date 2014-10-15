@@ -1,4 +1,4 @@
-package org.adastraeducation.visualcs;
+package org.adastraeducation.visualcs.list;
 
 //TODO: How does a listobserver work differently?
 public class TextArrayDisplayer extends ArrayDisplayer {

@@ -1,5 +1,6 @@
 package org.adastraeducation.visualcs.test;
 import org.adastraeducation.visualcs.*;
+import org.adastraeducation.visualcs.list.TextArrayDisplayer;
 
 public class TestTextArrayDisplayer {
 	public static void main(String[] args) {

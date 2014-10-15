@@ -1,4 +1,4 @@
-package org.adastraeducation.visualcs;
+package org.adastraeducation.visualcs.list;
 import processing.core.*;
 
 //TODO: How does a listobserver work differently?

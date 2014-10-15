@@ -6,7 +6,7 @@
  * package statement.
  * The first statement in the file must be package.
  */
-package org.adastraeducation.visualcs;
+package org.adastraeducation.visualcs.list;
 
 import javax.management.RuntimeErrorException;
 
